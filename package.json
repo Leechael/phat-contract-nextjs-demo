@@ -1,0 +1,24 @@
+{
+  "name": "test-phat-contract",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@phala/sdk": "^0.4.1-nightly-20230616",
+    "@polkadot/extension-inject": "^0.45.2",
+    "@polkadot/ui-keyring": "^3.0.2",
+    "@polkadot/ui-settings": "^3.0.2",
+    "@types/node": "18.15.3",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "next": "13.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.2"
+  }
+}
